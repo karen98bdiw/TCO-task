@@ -23,6 +23,7 @@ for getting current location user lib geolocator
 for displaying map used free lib flutter_map
 as state managment tool user mobX
 as design pattern for app user MVP
+as router in app user AutoRoute
 
 //App work flow 
 
