@@ -5,8 +5,9 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:tco_task/extensions/context_extensions.dart';
 import 'package:tco_task/models/airport/airport_model.dart';
 import 'package:tco_task/store/airport_marker/airport_marker_state.dart';
-import 'package:tco_task/store/app_map/airports_state.dart';
 import 'package:tco_task/theme/app_colors.dart';
+
+import '../store/airports/airports_state.dart';
 
 class AirportMarker extends StatelessWidget {
   final AirportModel airportModel;

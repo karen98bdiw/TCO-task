@@ -8,10 +8,11 @@ import 'package:tco_task/extensions/context_extensions.dart';
 import 'package:tco_task/extensions/location_extensions.dart';
 import 'package:tco_task/mixins/afterFirstLayou.dart';
 import 'package:tco_task/store/airport_marker/airport_marker_state.dart';
-import 'package:tco_task/store/app_map/airports_state.dart';
 import 'package:tco_task/store/location/location_state.dart';
 import 'package:tco_task/widgets/airport_marker_widget.dart';
 import 'package:tco_task/widgets/current_user_marker.dart';
+
+import '../../store/airports/airports_state.dart';
 
 class AirportsPage extends StatefulWidget {
   const AirportsPage({super.key});
